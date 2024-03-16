@@ -81,6 +81,10 @@ public class Program
 
     private static void Main(String[] args)
     {
+
+        Console.WriteLine("Kode Buah" + KodeBuah.getKodeBuah(KodeBuah.Buah.Jagung));
+        Console.WriteLine();
+
         string input = "";
         KodeBuah buah = new KodeBuah();
         PosisiKarakterGame posisiKarakterGame = new PosisiKarakterGame();
